@@ -48,7 +48,8 @@ nav ul li a{
   font-size: 30px;
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
   nav ul{
       position: absolute;
       top: 70px;
@@ -71,7 +72,8 @@ nav ul li a{
       transition: all 0.5s;
   }
 }
-@media (max-width: 768px){
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
   h1{
     font-size: 20px;
   }
