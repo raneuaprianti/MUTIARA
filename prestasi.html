@@ -8,50 +8,41 @@
 </head>
 <body>
     
-    <div class="menu-bar">
-        <h1 class="logo"><img src="OIP-removebg-preview.png" alt="" width="45px" height="55px"></h1>
-        <h5 style="color: white;">SMK Muhammadiyah 3 Kadungora <br>(Mutiara)</h5>
-        <ul>
-          <li><a href="index.html">Beranda</a></li>
-          <li><a href="#">Profil Sekolah <i class="fas fa-caret-down"></i></a>
-              <div class="dropdown-menu">
-                  <ul>
-                    <li><a href="sejarah.html">Sejarah</a></li>
-                    <li><a href="visi_misi.html">Visi dan Misi</a></li>
-                  </ul>
-                </div>
-          </li>
-          <li><a href="#">Keahlian <i class="fas fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-                <ul>
-                  <li><a href="dkv.html">DKV</a></li>
-                  <li><a href="mplb.html">MPLB</a></li>
-                  <li><a href="akl.html">AKL</a></li>
-                </ul>
-              </div>
-        </li>
-        <li><a href="#">Kegiatan <i class="fas fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-                <ul>
-                  <li><a href="ka.html">Kegiatan Akademik</a></li>
-                  <li><a href="ks.html">Kegiatan Kesiswaan</a></li>
-                  <li><a href="ku.html">Kegiatan Umum</a></li>
-                </ul>
-              </div>
-        </li>
-          <li><a href="prestasi.html">Prestasi</a>
-          </li>
-          <li><a href="kontak.html">Kontak</a></li>
-          <li><a href="#">Info PPDB<i class="fas fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-                <ul>
-                  <li><a href="ppdb.html">Info pendaftaran PPDB</a></li>
-                  <li><a href="link_ppdb.html">Pendaftaran Online PPDB</a></li>
-                </ul>
-              </div>
-        </li>
-        </ul>
-      </div>
+  <nav>
+    <div class="logo">
+        <img src="logo.png" alt="" width="45" height="55">
+    </div>
+    <ul id="menuList">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="profil.html">Profil Sekolah</a></li>
+        <li><a href="keahlian.html">Keahlian</a></li>
+        <li><a href="kegiatan.html">Kegiatan</a></li>
+        <li><a href="prestasi.html">Prestasi</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+        <li><a href="ppdb.html">PPDB</a></li>
+    </ul>
+    <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+</nav>
+
+
+<script>
+    let menuList = document.getElementById("menuList")
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "300px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+    }
+    
+</script>
+<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
       <br><br>
       <center>
       <h1>Prestasi Siswa</h1><br>
