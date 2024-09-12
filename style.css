@@ -84,18 +84,10 @@ nav ul li a{
     font-size: 10px;
   }
 }
-table{
-  display: flex;
-  width: 800px;
-  height: 185px;
-}
+
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
-  table{
-    display: flex;
-    width: 800px;
-    height: 185px;
-  }
+
 }
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px){
@@ -104,8 +96,36 @@ table{
     width: 800px;
     height: 185px;
   }
-  image{
-    width: 800px;
-    height: 185px;
+}
+#Responsivetable{
+  width: 100%;
+}
+#Responsivetable td{
+  padding: 5px;
+  text-align: left;
+}
+@media screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px){
+  #Responsivetable,
+  #Responsivetable td{
+    display: block;
+  }
+  #Responsivetable td{
+    border: none;
+    position: relative;
+    white-space: normal;
+    text-align: left;
+  }
+  #Responsivetable td:before{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+  }
+  #Responsivetable td:before{
+
   }
 }
