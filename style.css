@@ -84,29 +84,28 @@ nav ul li a{
     font-size: 10px;
   }
 }
-table { 
-  width: 100%; 
-td { 
-  padding: 0px; 
-  text-align: left; 
-}
+table{
+  display: flex;
+  width: 800px;
+  height: 185px;
 }
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
-	table, td { 
-		display: contents;
-	}
-	td { 
-		border: none;
-		position: relative;
-		padding-left: 0%; 
-	}
+  table{
+    display: flex;
+    width: 800px;
+    height: 185px;
+  }
 }
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px){
   iframe{
     display: flex;
-    width: 300px;
+    width: 800px;
+    height: 185px;
+  }
+  image{
+    width: 800px;
     height: 185px;
   }
 }
