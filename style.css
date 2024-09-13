@@ -125,6 +125,6 @@ iframe{
   iframe{
     display: flex;
     width: 75%;
-    height: 75vh;
+    height: 30vh;
   }
 }
