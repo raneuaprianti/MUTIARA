@@ -88,13 +88,13 @@ nav ul li a{
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
   h1{
-    font-size: 20px;
+    font-size: 25px;
   }
   h3{
-    font-size: 15px;
+    font-size: 20px;
   }
   p{
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 table { 
