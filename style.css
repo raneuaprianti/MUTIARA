@@ -124,7 +124,7 @@ iframe{
 (min-device-width: 768px) and (max-device-width: 1024px)  {
   iframe{
     display: flex;
-    width: 75%;
-    height: 30vh;
+    width: 50%;
+    height: 15vh;
   }
 }
